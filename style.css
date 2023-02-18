@@ -11,7 +11,7 @@
 :root{
     --main-color:#f9f6f5;
     --text-color:#16295b;
-    --bg-color:#3519d1;
+    --bg-color:#1b0599;
     --light-color:rgb(41, 74, 141);
     --big-font:4rem;
     --h2-font:2.25rem;
@@ -286,6 +286,10 @@ header{
         justify-self: center;
         width: 300px;
     }
+    .home-container .col-image img {
+        width: 270px;
+        height: 270px;
+    }
 }
 /*about*/
 .about{
@@ -421,6 +425,10 @@ header{
     }
     .about-container .text-content {
         padding: 20px;
+    }
+    .about-container .img-sec img{
+        width:300px;
+        height: 350px;
     }
 }
 /*skills*/
@@ -957,9 +965,12 @@ header{
         width: 100%;
     } 
 }
-@media screen and (max-width:550px) {
+@media screen and (max-width:500px) {
     .contact-info img{
         width: 250px;
+    }
+    .contacts{
+        padding:20px;
     }
 }
 .mains{
@@ -1059,7 +1070,7 @@ header{
     background-color: rgb(46, 91, 195);
 }
 .footer .design{
-    background:rgb(4, 4, 91);
+    background:rgb(1, 1, 30);
     margin-top: 30px;
     text-align: center;
     padding: 10px;
